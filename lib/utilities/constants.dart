@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-const kBackgroundColor = Color(0xFF121212);
-const kPrimaryColor = Color(0xFFFFBD73);
+const kBackgroundColor = Colors.white;
+const kSecondaryColor = Colors.yellow;
+const kForegroundColor = Colors.teal;
 
 const kCityNameTextStyle = TextStyle(
   fontFamily: 'OpenSans',
