@@ -18,9 +18,7 @@ class _CityScreenState extends State<CityScreen> {
         child: Column(
           children: <Widget>[
             TextField(
-              style: TextStyle(
-                color: Colors.black,
-              ),
+              style: TextStyle(),
               decoration: kTextFieldInputDecoration,
               onChanged: (value) {
                 cityName = value;
