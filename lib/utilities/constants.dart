@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 const kBackgroundColor = Colors.white;
-const kSecondaryColor = Colors.yellow;
+const kSecondaryColor = Colors.lightGreenAccent;
 const kForegroundColor = Colors.teal;
 
 const kCityNameTextStyle = TextStyle(
@@ -43,12 +43,18 @@ const kButtonTextStyle = TextStyle(
 );
 
 const kTextFieldInputDecoration = InputDecoration(
+  labelStyle: TextStyle(
+    color: kBackgroundColor,
+  ),
   filled: true,
-  fillColor: kForegroundColor,
-  prefixIcon: Icon(Icons.place, color: kBackgroundColor),
+  fillColor: kSecondaryColor,
+  prefixIcon: Icon(
+    Icons.place,
+    color: kForegroundColor,
+  ),
   hintText: 'City Name',
   hintStyle: TextStyle(
-    color: kBackgroundColor,
+    color: kForegroundColor,
   ),
   border: OutlineInputBorder(
     borderRadius: BorderRadius.all(
