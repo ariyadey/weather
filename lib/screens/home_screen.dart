@@ -93,6 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               Image.asset(
                 'images/$weatherIcon.png',
+                color: kForegroundColor,
                 height: 160,
               ),
               Column(
@@ -147,7 +148,7 @@ class _HomeScreenState extends State<HomeScreen> {
         splashRadius: 27.5,
         icon: Icon(
           Icons.near_me,
-          color: Colors.white,
+          color: kForegroundColor,
         ),
         onPressed: () async {
           var weatherData = await weather.getLocationWeather();
@@ -160,7 +161,7 @@ class _HomeScreenState extends State<HomeScreen> {
           splashRadius: 27.5,
           icon: Icon(
             Icons.my_location,
-            color: Colors.white,
+            color: kForegroundColor,
           ),
           onPressed: () async {
             var typedName = await Navigator.push(
