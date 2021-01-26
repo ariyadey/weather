@@ -115,6 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: <Widget>[
                   Image.asset(
                     'images/thermometer_low.png',
+                    color: Colors.blue,
                     height: 50,
                   ),
                   Text(
@@ -123,6 +124,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   Image.asset(
                     'images/thermometer_high.png',
+                    color: Colors.red,
                     height: 50,
                   ),
                   Text(
