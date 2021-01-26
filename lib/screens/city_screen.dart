@@ -31,7 +31,7 @@ class _CityScreenState extends State<CityScreen> {
               height: 50.0,
               width: double.infinity,
               child: FlatButton(
-                color: Color(0xFFFCA311),
+                color: Colors.transparent,
                 shape: new RoundedRectangleBorder(
                     borderRadius: BorderRadius.all(Radius.circular(10.0))),
                 onPressed: () {
@@ -56,7 +56,7 @@ class _CityScreenState extends State<CityScreen> {
         splashRadius: 27.5,
         icon: Icon(
           Icons.arrow_back,
-          color: Colors.white,
+          color: kForegroundColor,
         ),
         onPressed: () {
           Navigator.pop(context);
